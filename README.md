@@ -39,9 +39,11 @@ JSON object examples for PUT and PATCH:
 }
   ```
 JSON object examples for POST:
+```
 {
   "value": 1.99
 }
+```
 
 # TODO
 Validate non-numbered entries. Reject strings that cannot be converted to numbers.

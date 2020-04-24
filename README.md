@@ -18,16 +18,16 @@ $ npm test
 ## Instructions while running.
 - Visit localhost:3000 for fallback port.
 - Recommend using Postman for API testing.
-- The following actions can be access under the resource endpoint /api/till.
 
-- GET
-  Returns the current till object with the counts and total value of the coins.
-- PUT
-  Replaces the current till values with a json submitted object. If no coins are submitted, the value set is 0.
-- PATCH
-  Updates coin counts specified from json submitted object. If no coins are submitted, the value is unchanged.
-- POST
-  Returns the minimum amount of coins needed to return to the user from they json submitted object.
+- The following actions can be access under the resource endpoint /api/till:
+  - GET
+    - Returns the current till object with the counts and total value of the coins.
+  - PUT
+    - Replaces the current till values with a json submitted object. If no coins are submitted, the value set is 0.
+  - PATCH
+    - Updates coin counts specified from json submitted object. If no coins are submitted, the value is unchanged.
+  - POST
+    - Returns the minimum amount of coins needed to return to the user from they json submitted object.
 
 JSON object examples for PUT and PATCH:
  ```
